@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Poppins:wght@200&family=Prompt:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Poppins:wght@200&family=Prompt:ital,wght@1,200&display=swap');
+body{
+    background-color: #FCE9F1;
+}
+
+.fs-4{
+    padding: 10px;
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+}
+
+header{
+    padding: 0;
+    background-color: #F1D4E5;
+
+}
+
+.plate{
+
+}
+
+.container10{
+    margin-top: 25px;
+    background-color: #FCE9F1;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+
+}
+
+.item{
+    background-color: #F1D4E5;
+    border-radius: 20px;
+}
+
+form{
+    display: grid;
+    gap: 30px;
+    background-color: #73BBC9;
+    margin: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family:  'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    box-shadow: inset;
+}
+
+#inputs{
+    display: grid;
+    justify-content: center;
+}
+
+.content1{
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+
+.image-container{
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+img{
+    object-fit: cover;
+}
+
+p{
+    font-family: 'Libre Baskerville', serif;
+    font-size: small;
+}
+
+
+@media (max-width: 1000px) {
+    .container10{
+        display: block;
+    }
+}
