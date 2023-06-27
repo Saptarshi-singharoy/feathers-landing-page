@@ -45,6 +45,8 @@ form{
     margin: 50px;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family:  'Poppins', sans-serif;
     font-weight: bold;
     border-radius: 30px;
